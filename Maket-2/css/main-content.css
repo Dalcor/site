@@ -1,0 +1,225 @@
+.all-content {
+    margin-bottom: 76px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-margin {
+    margin-top: 48px;
+}
+
+
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+
+    width:760px;
+}
+
+.aside-bar {
+    width:236px;
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featured-products-first {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    position: relative;
+    width: 234px;
+    border: 10px solid #fff;
+    flex-shrink: 0;
+    margin-top: 27px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-right: 15px;
+}
+
+.item-price {
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    margin-top: 12px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.paragraph-item p{
+    display: inline-block;
+    margin:0;
+    width:auto;
+}
+
+s {
+    display: inline;
+    color: #464148;
+    vertical-align: bottom;
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.item-price .green-cart-button{
+    height: 47px;
+    width: 47px;
+    background-image: url('../img/png/ico/sprite.png');
+    background-position: -116px -1px;
+}
+
+.paragraph-item {
+    margin-top: 4px;
+    width: 150px;
+}
+
+
+.main-content .featured-products-first h2 {
+    margin:0;
+    width:100%;
+}
+
+
+.main-content .featured-products h2 {
+    margin-bottom:0;
+    margin-top: 65px;
+    width:100%;
+}
+
+.product-item img{
+    width: 100%;
+    height: auto;
+    z-index: 20;
+}
+
+.paragraph-item .short-description {
+    color: #464148;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+ .paragraph-item .price {
+     color: #7db122;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+ }
+
+ .side-block{
+     position: relative;
+     border-top: 4px solid #4CB1CA;
+     box-shadow: 0 0 3px rgba(0,0,0,0.5);
+ }
+
+ .side-slider img {
+     width: 100%;
+     border: 10px solid #fff;
+ }
+
+ .check-it-out {
+     display: flex;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     width: 133px;
+     height: 46px;
+     background-color: #4CB1CA;
+     color: #fff;
+     position: absolute;
+     bottom:70px;
+     margin-left: 51px;
+     z-index: 200;
+     padding-left: 30px;
+ }
+
+
+ .side-form {
+     margin-top: 31px;
+     border-top: 4px solid #4CB1CA;
+     box-shadow: 0 0 3px rgba(0,0,0,0.5);
+ }
+
+ .side-form p {
+     color: #696969;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+ }
+
+.side-form form input {
+    border:1px solid #E2E2E2;
+    width:80%;
+    height:29px;
+}
+
+.side-form form {
+    margin-left: 15%;
+}
+
+.side-form button {
+    display: flex;
+    margin: 18px auto 15px  auto;
+    width: 112px;
+    height: 44px;
+    background-color: #7EB123;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 27px;
+}
+.sale-item {
+    position: absolute;
+    top:-3px;
+    left:-3px;
+    height: 91px;
+    width: 96px;
+    background-image: url('../img/png/ico/sprite.png');
+    background-position: -6px -50px;
+}
+
+.sale-item span {
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    transform: rotate(316deg);
+    top:20px;
+    left:17px;
+}
+
+.new-item {
+    position: absolute;
+    top:-3px;
+    right:-3px;
+    height: 92px;
+    width: 98px;
+    background-image: url('../img/png/ico/sprite.png');
+    background-position: -199px -2px;
+}
+
+
+
+.new-item span {
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    transform: rotate(44deg);
+    top:20px;
+    right:19px;
+}
+
+
+
+
+

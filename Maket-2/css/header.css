@@ -1,0 +1,194 @@
+header .bg {
+    background-color: #4CB1CA;
+}
+
+
+header .header-top .lang .lang-item  {
+    font-size: 13px;
+    color: #bef2ff;
+}
+
+header .header-top .lang .lang-item a {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+header .header-top {
+    min-height: 43px;
+    padding-top: 13px;
+}
+
+
+header .lang .lang-item a:after {
+    content: "";
+    margin-left: 4px;
+    margin-right: 20px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(315deg);
+    border-radius: 2px;
+    position: relative;
+    top: -1px;
+}
+
+header .header-top .header-link {
+    float: right;
+}
+
+header .header-top .header-link ul {
+    display: flex;
+}
+
+header .header-top .header-link li a{
+    color: #fff;
+    font-size: 13px;
+    border-right: 1px solid;
+    padding-right: 15px;
+    margin-left: 11px;
+    line-height: 11px;
+    display: block;
+}
+
+header .header-top .header-link li:nth-last-child(1) a{
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+header .search .search-button {
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/png/ico/sprite.png');
+    background-position: -10px -11px;
+    vertical-align: top;
+    margin-top: 6px;
+
+}
+
+header .cart-and-pay .first-green-button {
+    width:35px;
+    height: 35px;
+    background-image: url('../img/png/ico/sprite.png');
+    background-position: -74px -2px;
+    vertical-align: top;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+header .cart-and-pay .second-green-button {
+     width:35px;
+     height: 35px;
+     background-image: url('../img/png/ico/sprite.png');
+     background-position: -33px -1px;
+     vertical-align: top;
+     margin-top: -5px;
+     margin-right: 12px;
+ }
+
+.cart-and-pay span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#656565;
+}
+
+.header-features {
+    display:flex;
+
+}
+
+.cart-and-pay {
+    margin-top: 38px;
+}
+
+h1 {
+    color:#656565;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    width:190px;
+    display: inline-block;
+    margin-top: 26px;
+    font-size: 36px;
+}
+
+header .header-main form {
+    /*display: inline-block;*/
+    float: right;
+}
+
+header .header-main .cart-and-pay {
+    /*display: inline-block;*/
+    float: right;
+}
+
+
+
+header .search {
+    border: 1px solid #C6C6C6;
+    width: 174px;
+    height: 29px;
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+header .search input {
+    width: 85%;
+    vertical-align: top;
+    height: 100%;
+}
+
+header .search input::placeholder {
+   font-size: 13px;
+    padding-left: 7px;
+    color: #b7b7b7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .search input:focus::placeholder {
+    color: transparent;
+}
+
+header button:focus {
+    border:none;
+}
+
+.header-main nav li {
+     display: inline-block;
+     margin-right: 21px;
+ }
+
+.header-main nav li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#656565;
+}
+
+.header-main nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    margin-right: 65px;
+}
+
+form .search {
+    display: inline-block;
+    width: 174px;
+    float:right;
+}
+
+.header-main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+header .header-top {
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,83 @@
+@import 'header.css';
+@import 'hidden.css';
+@import 'footer.css';
+@import '../js/lib/slick/slick/slick.css';
+@import 'slider.css';
+@import 'main-content.css';
+@import 'media-request.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    /*с учетом 30 пикселей для внутреннего контента*/
+    max-width: 1056px;
+    /*отцентровка главного блока*/
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+input {
+   border: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+
+
+h2 {
+    color:#635f57;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h4 {
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
